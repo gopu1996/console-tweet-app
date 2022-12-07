@@ -1,0 +1,717 @@
+src/main/java/com/tweet/controller/HomeController.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/controller/HomeController.java:7:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/tweet/controller/HomeController.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/controller/HomeController.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/controller/HomeController.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/tweet/controller/HomeController.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/controller/HomeController.java:19:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'i' could be declared final
+src/main/java/com/tweet/controller/HomeController.java:19:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/com/tweet/controller/HomeController.java:20:	CloseResource:	CloseResource: Ensure that resources like this InputStream object are closed after use
+src/main/java/com/tweet/controller/HomeController.java:20:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'sc' (lines '20'-'44').
+src/main/java/com/tweet/controller/HomeController.java:20:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+src/main/java/com/tweet/controller/HomeController.java:20:	ShortVariable:	ShortVariable: Avoid variables with short names like sc
+src/main/java/com/tweet/controller/HomeController.java:21:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/HomeController.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'choice' could be declared final
+src/main/java/com/tweet/controller/HomeController.java:26:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/HomeController.java:30:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/HomeController.java:34:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/HomeController.java:38:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/HomeController.java:39:	DoNotTerminateVM:	DoNotTerminateVM: System.exit() should not be used in J2EE/JEE apps
+src/main/java/com/tweet/controller/TweetController.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/controller/TweetController.java:14:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/tweet/controller/TweetController.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/controller/TweetController.java:17:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the sc field if you want a default access modifier
+src/main/java/com/tweet/controller/TweetController.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/controller/TweetController.java:17:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/tweet/controller/TweetController.java:17:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/main/java/com/tweet/controller/TweetController.java:17:	ShortVariable:	ShortVariable: Avoid variables with short names like sc
+src/main/java/com/tweet/controller/TweetController.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/controller/TweetController.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/controller/TweetController.java:20:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'subject' could be declared final
+src/main/java/com/tweet/controller/TweetController.java:22:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'desc' could be declared final
+src/main/java/com/tweet/controller/TweetController.java:24:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'validationErrors' could be declared final
+src/main/java/com/tweet/controller/TweetController.java:25:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/TweetController.java:26:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweet' could be declared final
+src/main/java/com/tweet/controller/TweetController.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/tweet/controller/TweetController.java:29:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:33:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:34:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/controller/TweetController.java:37:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:38:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:39:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/controller/TweetController.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/controller/TweetController.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/controller/TweetController.java:49:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/controller/TweetController.java:49:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/TweetController.java:50:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tweet/controller/TweetController.java:50:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/TweetController.java:50:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tweet/controller/TweetController.java:51:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/TweetController.java:51:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:58:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:59:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/controller/TweetController.java:64:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/controller/TweetController.java:64:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/controller/TweetController.java:66:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/controller/TweetController.java:67:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/controller/TweetController.java:67:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/TweetController.java:68:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:69:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tweet/controller/TweetController.java:69:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/TweetController.java:69:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:76:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:77:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/controller/TweetController.java:81:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/controller/TweetController.java:81:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/controller/TweetController.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/controller/TweetController.java:84:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/controller/TweetController.java:84:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/TweetController.java:85:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:86:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tweet/controller/TweetController.java:86:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/TweetController.java:86:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:93:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/TweetController.java:94:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/controller/UserController.java:13:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/tweet/controller/UserController.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/controller/UserController.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/controller/UserController.java:16:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the sc field if you want a default access modifier
+src/main/java/com/tweet/controller/UserController.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/controller/UserController.java:16:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/tweet/controller/UserController.java:16:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/main/java/com/tweet/controller/UserController.java:16:	ShortVariable:	ShortVariable: Avoid variables with short names like sc
+src/main/java/com/tweet/controller/UserController.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/controller/UserController.java:20:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'firstName' could be declared final
+src/main/java/com/tweet/controller/UserController.java:22:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/main/java/com/tweet/controller/UserController.java:24:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:25:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/main/java/com/tweet/controller/UserController.java:26:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'secQuestion' could be declared final
+src/main/java/com/tweet/controller/UserController.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'validationErrors' could be declared final
+src/main/java/com/tweet/controller/UserController.java:29:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/UserController.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/tweet/controller/UserController.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/tweet/controller/UserController.java:33:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:37:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:38:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/controller/UserController.java:41:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:42:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "ERROR : " appears 4 times in this file; the first occurrence is on line 42
+src/main/java/com/tweet/controller/UserController.java:42:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:43:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:49:	CognitiveComplexity:	CognitiveComplexity: The method 'loginUser()' has a cognitive complexity of 16, current threshold is 15
+src/main/java/com/tweet/controller/UserController.java:49:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/controller/UserController.java:50:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/main/java/com/tweet/controller/UserController.java:52:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/main/java/com/tweet/controller/UserController.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'validationErrors' could be declared final
+src/main/java/com/tweet/controller/UserController.java:55:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/UserController.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userDetails' could be declared final
+src/main/java/com/tweet/controller/UserController.java:58:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:59:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/UserController.java:59:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/controller/UserController.java:59:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/controller/UserController.java:60:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'status' could be declared final
+src/main/java/com/tweet/controller/UserController.java:62:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:63:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:67:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:68:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'active' could be declared final
+src/main/java/com/tweet/controller/UserController.java:82:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:83:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/controller/UserController.java:86:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:87:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:88:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:95:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/controller/UserController.java:96:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:97:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/main/java/com/tweet/controller/UserController.java:98:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:99:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'nickName' could be declared final
+src/main/java/com/tweet/controller/UserController.java:100:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:101:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newPassword' could be declared final
+src/main/java/com/tweet/controller/UserController.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'validationErrors' could be declared final
+src/main/java/com/tweet/controller/UserController.java:103:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/UserController.java:105:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/tweet/controller/UserController.java:106:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:107:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:111:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/controller/UserController.java:112:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:115:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:116:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:117:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:123:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/controller/UserController.java:124:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:125:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'oldPassword' could be declared final
+src/main/java/com/tweet/controller/UserController.java:126:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:127:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newPassword' could be declared final
+src/main/java/com/tweet/controller/UserController.java:128:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'validationErrors' could be declared final
+src/main/java/com/tweet/controller/UserController.java:129:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/controller/UserController.java:131:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/tweet/controller/UserController.java:132:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:133:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:137:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/controller/UserController.java:138:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:141:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:142:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:143:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:150:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/controller/UserController.java:152:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'status' could be declared final
+src/main/java/com/tweet/controller/UserController.java:153:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/controller/UserController.java:160:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:161:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/controller/UserController.java:166:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/controller/UserController.java:166:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/controller/UserController.java:168:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'i' could be declared final
+src/main/java/com/tweet/controller/UserController.java:168:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/main/java/com/tweet/controller/UserController.java:169:	CloseResource:	CloseResource: Ensure that resources like this InputStream object are closed after use
+src/main/java/com/tweet/controller/UserController.java:169:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'sc' (lines '169'-'202').
+src/main/java/com/tweet/controller/UserController.java:169:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+src/main/java/com/tweet/controller/UserController.java:169:	ShortVariable:	ShortVariable: Avoid variables with short names like sc
+src/main/java/com/tweet/controller/UserController.java:170:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:172:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'choice' could be declared final
+src/main/java/com/tweet/controller/UserController.java:175:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:179:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:183:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:187:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:191:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/controller/UserController.java:195:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/dao/TweetDao.java:16:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/tweet/dao/TweetDao.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/dao/TweetDao.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/dao/TweetDao.java:19:	ImmutableField:	ImmutableField: Private field 'databaseConnection' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/tweet/dao/TweetDao.java:19:	LongVariable:	LongVariable: Avoid excessively long variable names like databaseConnection
+src/main/java/com/tweet/dao/TweetDao.java:21:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the ps field if you want a default access modifier
+src/main/java/com/tweet/dao/TweetDao.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/dao/TweetDao.java:21:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/tweet/dao/TweetDao.java:21:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'ps'
+src/main/java/com/tweet/dao/TweetDao.java:21:	ShortVariable:	ShortVariable: Avoid variables with short names like ps
+src/main/java/com/tweet/dao/TweetDao.java:22:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the rs field if you want a default access modifier
+src/main/java/com/tweet/dao/TweetDao.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/dao/TweetDao.java:22:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/tweet/dao/TweetDao.java:22:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'rs'
+src/main/java/com/tweet/dao/TweetDao.java:22:	ShortVariable:	ShortVariable: Avoid variables with short names like rs
+src/main/java/com/tweet/dao/TweetDao.java:23:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the connect field if you want a default access modifier
+src/main/java/com/tweet/dao/TweetDao.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/dao/TweetDao.java:23:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/tweet/dao/TweetDao.java:23:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'connect'
+src/main/java/com/tweet/dao/TweetDao.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/dao/TweetDao.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweet' is not assigned and could be declared final
+src/main/java/com/tweet/dao/TweetDao.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'querry' could be declared final
+src/main/java/com/tweet/dao/TweetDao.java:29:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'message' (lines '29'-'39').
+src/main/java/com/tweet/dao/TweetDao.java:29:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '29'-'54').
+src/main/java/com/tweet/dao/TweetDao.java:30:	UseTryWithResources:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/main/java/com/tweet/dao/TweetDao.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'code' could be declared final
+src/main/java/com/tweet/dao/TweetDao.java:39:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '39'-'54').
+src/main/java/com/tweet/dao/TweetDao.java:49:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/dao/TweetDao.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/dao/TweetDao.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/dao/TweetDao.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'querry' could be declared final
+src/main/java/com/tweet/dao/TweetDao.java:58:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'tweet' (lines '58'-'80').
+src/main/java/com/tweet/dao/TweetDao.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweet' could be declared final
+src/main/java/com/tweet/dao/TweetDao.java:59:	UseTryWithResources:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/main/java/com/tweet/dao/TweetDao.java:76:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/dao/TweetDao.java:82:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/dao/TweetDao.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'querry' could be declared final
+src/main/java/com/tweet/dao/TweetDao.java:84:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'tweet' (lines '84'-'105').
+src/main/java/com/tweet/dao/TweetDao.java:84:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweet' could be declared final
+src/main/java/com/tweet/dao/TweetDao.java:85:	UseTryWithResources:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/main/java/com/tweet/dao/TweetDao.java:101:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/dao/TweetDao.java:107:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/dao/TweetDao.java:108:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'querry' could be declared final
+src/main/java/com/tweet/dao/TweetDao.java:109:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'user' (lines '109'-'130').
+src/main/java/com/tweet/dao/TweetDao.java:109:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/tweet/dao/TweetDao.java:110:	UseTryWithResources:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/main/java/com/tweet/dao/TweetDao.java:126:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/dao/UserDao.java:13:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/tweet/dao/UserDao.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/dao/UserDao.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/dao/UserDao.java:15:	ImmutableField:	ImmutableField: Private field 'databaseConnection' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/tweet/dao/UserDao.java:15:	LongVariable:	LongVariable: Avoid excessively long variable names like databaseConnection
+src/main/java/com/tweet/dao/UserDao.java:17:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the ps field if you want a default access modifier
+src/main/java/com/tweet/dao/UserDao.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/dao/UserDao.java:17:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/tweet/dao/UserDao.java:17:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'ps'
+src/main/java/com/tweet/dao/UserDao.java:17:	ShortVariable:	ShortVariable: Avoid variables with short names like ps
+src/main/java/com/tweet/dao/UserDao.java:18:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the rs field if you want a default access modifier
+src/main/java/com/tweet/dao/UserDao.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/dao/UserDao.java:18:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/tweet/dao/UserDao.java:18:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'rs'
+src/main/java/com/tweet/dao/UserDao.java:18:	ShortVariable:	ShortVariable: Avoid variables with short names like rs
+src/main/java/com/tweet/dao/UserDao.java:19:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the connect field if you want a default access modifier
+src/main/java/com/tweet/dao/UserDao.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/dao/UserDao.java:19:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/tweet/dao/UserDao.java:19:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'connect'
+src/main/java/com/tweet/dao/UserDao.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/dao/UserDao.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/tweet/dao/UserDao.java:25:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'querry' could be declared final
+src/main/java/com/tweet/dao/UserDao.java:26:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'message' (lines '26'-'37').
+src/main/java/com/tweet/dao/UserDao.java:26:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '26'-'52').
+src/main/java/com/tweet/dao/UserDao.java:27:	UseTryWithResources:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/main/java/com/tweet/dao/UserDao.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'code' could be declared final
+src/main/java/com/tweet/dao/UserDao.java:37:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '37'-'52').
+src/main/java/com/tweet/dao/UserDao.java:47:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/dao/UserDao.java:55:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/dao/UserDao.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/dao/UserDao.java:56:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'querry' could be declared final
+src/main/java/com/tweet/dao/UserDao.java:57:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'user' (lines '57'-'65').
+src/main/java/com/tweet/dao/UserDao.java:57:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'user' (lines '57'-'79').
+src/main/java/com/tweet/dao/UserDao.java:58:	UseTryWithResources:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/main/java/com/tweet/dao/UserDao.java:65:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/com/tweet/dao/UserDao.java:65:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'user' (lines '65'-'65').
+src/main/java/com/tweet/dao/UserDao.java:65:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'user' (lines '65'-'79').
+src/main/java/com/tweet/dao/UserDao.java:75:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/dao/UserDao.java:81:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/dao/UserDao.java:81:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/dao/UserDao.java:81:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/tweet/dao/UserDao.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'querry' could be declared final
+src/main/java/com/tweet/dao/UserDao.java:84:	UseTryWithResources:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/main/java/com/tweet/dao/UserDao.java:89:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'code' could be declared final
+src/main/java/com/tweet/dao/UserDao.java:91:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/dao/UserDao.java:101:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/dao/UserDao.java:109:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/dao/UserDao.java:109:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setPasswordForUser' should not return any type except void linguistically
+src/main/java/com/tweet/dao/UserDao.java:109:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/dao/UserDao.java:109:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/tweet/dao/UserDao.java:110:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'querry' could be declared final
+src/main/java/com/tweet/dao/UserDao.java:111:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'message' (lines '111'-'120').
+src/main/java/com/tweet/dao/UserDao.java:111:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '111'-'135').
+src/main/java/com/tweet/dao/UserDao.java:113:	UseTryWithResources:	UseTryWithResources: Consider using a try-with-resources statement instead of explicitly closing the resource
+src/main/java/com/tweet/dao/UserDao.java:118:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'code' could be declared final
+src/main/java/com/tweet/dao/UserDao.java:120:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '120'-'135').
+src/main/java/com/tweet/dao/UserDao.java:130:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/entity/Tweets.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/entity/Tweets.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/entity/Tweets.java:5:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/com/tweet/entity/Tweets.java:7:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/Tweets.java:7:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'description' is not assigned and could be declared final
+src/main/java/com/tweet/entity/Tweets.java:7:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/entity/Tweets.java:7:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'subject' is not assigned and could be declared final
+src/main/java/com/tweet/entity/Tweets.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/Tweets.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/entity/Tweets.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/Tweets.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/Tweets.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'subject' is not assigned and could be declared final
+src/main/java/com/tweet/entity/Tweets.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/Tweets.java:39:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/Tweets.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'description' is not assigned and could be declared final
+src/main/java/com/tweet/entity/User.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/entity/User.java:3:	ShortClassName:	ShortClassName: Avoid short class names like User
+src/main/java/com/tweet/entity/User.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/entity/User.java:5:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/main/java/com/tweet/entity/User.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/entity/User.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/User.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/entity/User.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'firstName' is not assigned and could be declared final
+src/main/java/com/tweet/entity/User.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/tweet/entity/User.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'question' is not assigned and could be declared final
+src/main/java/com/tweet/entity/User.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/tweet/entity/User.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/User.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/User.java:24:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getFirst_name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/tweet/entity/User.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/User.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'firstName' is not assigned and could be declared final
+src/main/java/com/tweet/entity/User.java:27:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'setFirst_name' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/tweet/entity/User.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/User.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/User.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/entity/User.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/User.java:39:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/User.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/tweet/entity/User.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/User.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/entity/User.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'question' is not assigned and could be declared final
+src/main/java/com/tweet/entity/User.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:5:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:7:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:10:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:10:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:11:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/exception/ConnectionFailedExcetion.java:17:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/tweet/exception/DaoLayerException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/exception/DaoLayerException.java:5:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/com/tweet/exception/DaoLayerException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/exception/DaoLayerException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/tweet/exception/DaoLayerException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/tweet/exception/DaoLayerException.java:5:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/tweet/exception/DaoLayerException.java:7:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/exception/DaoLayerException.java:10:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/com/tweet/exception/DaoLayerException.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/exception/DaoLayerException.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/tweet/exception/DaoLayerException.java:11:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/exception/DaoLayerException.java:17:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/tweet/exception/ServiceException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/exception/ServiceException.java:5:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/com/tweet/exception/ServiceException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/exception/ServiceException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/tweet/exception/ServiceException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/tweet/exception/ServiceException.java:5:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/tweet/exception/ServiceException.java:7:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/exception/ServiceException.java:9:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/com/tweet/exception/ServiceException.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/exception/ServiceException.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final
+src/main/java/com/tweet/exception/ServiceException.java:11:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/exception/ServiceException.java:18:	FieldDeclarationsShouldBeAtStartOfClass:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/tweet/service/TweetService.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/service/TweetService.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/service/TweetService.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/service/TweetService.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/service/TweetService.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/service/UserService.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/service/UserService.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/service/UserService.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/service/UserService.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/service/UserService.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/service/UserService.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/service/UserService.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:13:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweet' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:19:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'message' (lines '19'-'21').
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:19:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'message' is never used (overwritten on line 21)
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:21:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '21'-'27').
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:23:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Some this went worng in service" appears 4 times in this file; the first occurrence is on line 23
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:34:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:47:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:48:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:61:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/serviceimpl/TweetServiceImpl.java:62:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:13:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:16:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the sc field if you want a default access modifier
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:16:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:16:	ShortVariable:	ShortVariable: Avoid variables with short names like sc
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:23:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Some this went worng in service" appears 4 times in this file; the first occurrence is on line 23
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:29:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'message' (lines '29'-'34').
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:29:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '29'-'46').
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:29:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'message' is never used (overwritten on line 34)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:32:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:33:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:33:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:33:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:33:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:34:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '34'-'46').
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:54:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:55:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:56:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'value' (lines '56'-'67').
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:56:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:58:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'value' (lines '58'-'67').
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:58:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newPassword' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nickName' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:72:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'message' (lines '72'-'78').
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:72:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '72'-'90').
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:72:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'message' is never used (overwritten on line 78)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:75:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:76:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:77:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:77:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:78:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '78'-'90').
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:93:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:93:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newPassword' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:93:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'oldPassword' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:94:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'message' (lines '94'-'100').
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:94:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'message' (lines '94'-'114').
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:97:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:98:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:98:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:99:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:99:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:111:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:117:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:120:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'details' could be declared final
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:121:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:122:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/serviceimpl/UserServiceImpl.java:127:	PreserveStackTrace:	PreserveStackTrace: New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/tweet/utility/DatabaseConnection.java:9:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/tweet/utility/DatabaseConnection.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/utility/DatabaseConnection.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/utility/DatabaseConnection.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/utility/DatabaseConnection.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/tweet/utility/DatabaseConnection.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/utility/DatabaseConnection.java:16:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'con' (lines '16'-'19').
+src/main/java/com/tweet/utility/DatabaseConnection.java:16:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'con' is never used (overwritten on line 19)
+src/main/java/com/tweet/utility/DatabaseConnection.java:19:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'con' (lines '19'-'24').
+src/main/java/com/tweet/utility/DatabaseConnection.java:20:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/tweet/utility/TweetValidation.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/utility/TweetValidation.java:8:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/tweet/utility/TweetValidation.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/utility/TweetValidation.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'desc' is not assigned and could be declared final
+src/main/java/com/tweet/utility/TweetValidation.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/utility/TweetValidation.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'subject' is not assigned and could be declared final
+src/main/java/com/tweet/utility/TweetValidation.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/tweet/utility/TweetValidation.java:16:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/TweetValidation.java:16:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/TweetValidation.java:20:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'regex' could be declared final
+src/main/java/com/tweet/utility/TweetValidation.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pattern' could be declared final
+src/main/java/com/tweet/utility/TweetValidation.java:22:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/utility/TweetValidation.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'matcher' could be declared final
+src/main/java/com/tweet/utility/TweetValidation.java:23:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/utility/TweetValidation.java:27:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/TweetValidation.java:33:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/TweetValidation.java:33:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/TweetValidation.java:37:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/TweetValidation.java:41:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/TweetValidation.java:41:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/TweetValidation.java:45:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/TweetValidation.java:45:	UseUnderscoresInNumericLiterals:	UseUnderscoresInNumericLiterals: Number 12000 should separate every third digit with an underscore
+src/main/java/com/tweet/utility/UserValidation.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/utility/UserValidation.java:9:	ModifiedCyclomaticComplexity:	ModifiedCyclomaticComplexity: The class 'UserValidation' has a Modified Cyclomatic Complexity of 8 (Highest = 10).
+src/main/java/com/tweet/utility/UserValidation.java:9:	StdCyclomaticComplexity:	StdCyclomaticComplexity: The class 'UserValidation' has a Standard Cyclomatic Complexity of 8 (Highest = 10).
+src/main/java/com/tweet/utility/UserValidation.java:9:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/tweet/utility/UserValidation.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/utility/UserValidation.java:10:	CyclomaticComplexity:	CyclomaticComplexity: The method 'validateRegistration(String, String, String, String)' has a cyclomatic complexity of 10.
+src/main/java/com/tweet/utility/UserValidation.java:10:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'seq_question' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/tweet/utility/UserValidation.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'firstName' is not assigned and could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'seq_question' is not assigned and could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:10:	ModifiedCyclomaticComplexity:	ModifiedCyclomaticComplexity: The method 'validateRegistration' has a Modified Cyclomatic Complexity of 10.
+src/main/java/com/tweet/utility/UserValidation.java:10:	NPathComplexity:	NPathComplexity: The method 'validateRegistration(String, String, String, String)' has an NPath complexity of 512, current threshold is 200
+src/main/java/com/tweet/utility/UserValidation.java:10:	StdCyclomaticComplexity:	StdCyclomaticComplexity: The method 'validateRegistration' has a Standard Cyclomatic Complexity of 10.
+src/main/java/com/tweet/utility/UserValidation.java:10:	UseObjectForClearerAPI:	UseObjectForClearerAPI: Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/com/tweet/utility/UserValidation.java:10:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'seq_question' is not final.
+src/main/java/com/tweet/utility/UserValidation.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:14:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:14:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:18:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/UserValidation.java:23:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:23:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'regex' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pattern' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:29:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/utility/UserValidation.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'matcher' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:30:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/utility/UserValidation.java:34:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/UserValidation.java:40:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:40:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:41:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Password cannot be empty" appears 4 times in this file; the first occurrence is on line 41
+src/main/java/com/tweet/utility/UserValidation.java:44:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/UserValidation.java:45:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Password cannot be more than 30 characters" appears 4 times in this file; the first occurrence is on line 45
+src/main/java/com/tweet/utility/UserValidation.java:50:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:50:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:54:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/UserValidation.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/utility/UserValidation.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:67:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:67:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'regex' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pattern' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:73:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/utility/UserValidation.java:73:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'matcher' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:74:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/utility/UserValidation.java:78:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/UserValidation.java:84:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:84:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:88:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/UserValidation.java:97:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/utility/UserValidation.java:97:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:97:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newPassword' is not assigned and could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:97:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:99:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:103:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:103:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:107:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'regex' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:108:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pattern' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:109:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/utility/UserValidation.java:109:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'matcher' could be declared final
+src/main/java/com/tweet/utility/UserValidation.java:110:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/tweet/utility/UserValidation.java:114:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/UserValidation.java:120:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:120:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:124:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/UserValidation.java:130:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:130:	PositionLiteralsFirstInComparisons:	PositionLiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/tweet/utility/UserValidation.java:134:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/com/tweet/utility/Utility.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/tweet/utility/Utility.java:3:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/tweet/utility/Utility.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/utility/Utility.java:6:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:10:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/tweet/utility/Utility.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/utility/Utility.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/tweet/utility/Utility.java:15:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:16:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:17:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:19:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:20:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:21:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:22:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:23:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:24:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:25:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:28:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/tweet/utility/Utility.java:29:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:30:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:31:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:32:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:33:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:34:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:35:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/com/tweet/utility/Utility.java:36:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/test/java/daotestcases/DatabaseConnectionTest.java:12:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/daotestcases/DatabaseConnectionTest.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/daotestcases/DatabaseConnectionTest.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/daotestcases/DatabaseConnectionTest.java:14:	ImmutableField:	ImmutableField: Private field 'databaseConnection' could be made final; it is only initialized in the declaration or constructor.
+src/test/java/daotestcases/DatabaseConnectionTest.java:14:	LongVariable:	LongVariable: Avoid excessively long variable names like databaseConnection
+src/test/java/daotestcases/DatabaseConnectionTest.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/DatabaseConnectionTest.java:17:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getConnection' should not return void linguistically
+src/test/java/daotestcases/DatabaseConnectionTest.java:19:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/test/java/daotestcases/DatabaseConnectionTest.java:19:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dbConnection' could be declared final
+src/test/java/daotestcases/DatabaseConnectionTest.java:22:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/TweetDaoTest.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/daotestcases/TweetDaoTest.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/daotestcases/TweetDaoTest.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/daotestcases/TweetDaoTest.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/daotestcases/TweetDaoTest.java:26:	LongVariable:	LongVariable: Avoid excessively long variable names like databaseConnection
+src/test/java/daotestcases/TweetDaoTest.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/TweetDaoTest.java:30:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/test/java/daotestcases/TweetDaoTest.java:30:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'conn' (lines '30'-'32').
+src/test/java/daotestcases/TweetDaoTest.java:30:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'conn' is never used (overwritten on line 32)
+src/test/java/daotestcases/TweetDaoTest.java:36:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/TweetDaoTest.java:38:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/TweetDaoTest.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/TweetDaoTest.java:44:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/test/java/daotestcases/TweetDaoTest.java:51:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/TweetDaoTest.java:53:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/TweetDaoTest.java:67:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/test/java/daotestcases/TweetDaoTest.java:76:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/TweetDaoTest.java:76:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC1_viewTweetbyEmail' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/daotestcases/TweetDaoTest.java:78:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetDetails' could be declared final
+src/test/java/daotestcases/TweetDaoTest.java:79:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/daotestcases/TweetDaoTest.java:79:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/test/java/daotestcases/TweetDaoTest.java:81:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/TweetDaoTest.java:85:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/TweetDaoTest.java:85:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC2_viewAllTweets' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/daotestcases/TweetDaoTest.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetDetails' could be declared final
+src/test/java/daotestcases/TweetDaoTest.java:88:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/daotestcases/TweetDaoTest.java:88:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/test/java/daotestcases/TweetDaoTest.java:90:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/TweetDaoTest.java:94:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/TweetDaoTest.java:94:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC3_getAllUserDetails' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/daotestcases/TweetDaoTest.java:96:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetDetails' could be declared final
+src/test/java/daotestcases/TweetDaoTest.java:97:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/daotestcases/TweetDaoTest.java:97:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/test/java/daotestcases/TweetDaoTest.java:99:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/UserDaoTest.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/daotestcases/UserDaoTest.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/daotestcases/UserDaoTest.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/daotestcases/UserDaoTest.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/daotestcases/UserDaoTest.java:24:	LongVariable:	LongVariable: Avoid excessively long variable names like databaseConnection
+src/test/java/daotestcases/UserDaoTest.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/UserDaoTest.java:28:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/test/java/daotestcases/UserDaoTest.java:28:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'conn' (lines '28'-'30').
+src/test/java/daotestcases/UserDaoTest.java:28:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'conn' is never used (overwritten on line 30)
+src/test/java/daotestcases/UserDaoTest.java:34:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/UserDaoTest.java:36:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/UserDaoTest.java:41:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/UserDaoTest.java:42:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/test/java/daotestcases/UserDaoTest.java:48:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/UserDaoTest.java:50:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/UserDaoTest.java:54:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/test/java/daotestcases/UserDaoTest.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/UserDaoTest.java:67:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The getter 'getUserDetailsbyEmailTest' should not return void linguistically
+src/test/java/daotestcases/UserDaoTest.java:70:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "test@gmail.com" appears 5 times in this file; the first occurrence is on line 70
+src/test/java/daotestcases/UserDaoTest.java:71:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/daotestcases/UserDaoTest.java:73:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/UserDaoTest.java:79:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/UserDaoTest.java:79:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC1_setUserStatus' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/daotestcases/UserDaoTest.java:84:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/daotestcases/UserDaoTest.java:84:	SimplifiableTestAssertion:	SimplifiableTestAssertion: Assertion may be simplified using assertTrue
+src/test/java/daotestcases/UserDaoTest.java:84:	UseAssertTrueInsteadOfAssertEquals:	UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+src/test/java/daotestcases/UserDaoTest.java:86:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/daotestcases/UserDaoTest.java:92:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/daotestcases/UserDaoTest.java:92:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC2_setPasswordForUser' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/daotestcases/UserDaoTest.java:97:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/daotestcases/UserDaoTest.java:99:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/servicetestcases/TweetServiceTest.java:22:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/servicetestcases/TweetServiceTest.java:22:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/servicetestcases/TweetServiceTest.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/servicetestcases/TweetServiceTest.java:24:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'tweetService'
+src/test/java/servicetestcases/TweetServiceTest.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/servicetestcases/TweetServiceTest.java:25:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'tweetDao'
+src/test/java/servicetestcases/TweetServiceTest.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/TweetServiceTest.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/TweetServiceTest.java:35:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC1_addTweets' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/servicetestcases/TweetServiceTest.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweets' could be declared final
+src/test/java/servicetestcases/TweetServiceTest.java:38:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "test12@gmail.com" appears 4 times in this file; the first occurrence is on line 38
+src/test/java/servicetestcases/TweetServiceTest.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetDetails' could be declared final
+src/test/java/servicetestcases/TweetServiceTest.java:43:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/servicetestcases/TweetServiceTest.java:43:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/test/java/servicetestcases/TweetServiceTest.java:46:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/servicetestcases/TweetServiceTest.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/TweetServiceTest.java:51:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC2_viewMyTweets' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/servicetestcases/TweetServiceTest.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweets' could be declared final
+src/test/java/servicetestcases/TweetServiceTest.java:54:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/servicetestcases/TweetServiceTest.java:54:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/test/java/servicetestcases/TweetServiceTest.java:57:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/servicetestcases/TweetServiceTest.java:62:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/TweetServiceTest.java:62:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC3_viewAllTweets' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/servicetestcases/TweetServiceTest.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweets' could be declared final
+src/test/java/servicetestcases/TweetServiceTest.java:65:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/servicetestcases/TweetServiceTest.java:65:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/test/java/servicetestcases/TweetServiceTest.java:68:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/servicetestcases/TweetServiceTest.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/TweetServiceTest.java:73:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC4_viewAllUserDetails' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/servicetestcases/TweetServiceTest.java:75:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/servicetestcases/TweetServiceTest.java:76:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/servicetestcases/TweetServiceTest.java:76:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/test/java/servicetestcases/TweetServiceTest.java:79:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/servicetestcases/UserServiceTest.java:13:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.tweet.entity.User'
+src/test/java/servicetestcases/UserServiceTest.java:13:	UnusedImports:	UnusedImports: Unused import 'com.tweet.entity.User'
+src/test/java/servicetestcases/UserServiceTest.java:20:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/servicetestcases/UserServiceTest.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/servicetestcases/UserServiceTest.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/servicetestcases/UserServiceTest.java:22:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'userService'
+src/test/java/servicetestcases/UserServiceTest.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/servicetestcases/UserServiceTest.java:23:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'userDao'
+src/test/java/servicetestcases/UserServiceTest.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/UserServiceTest.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/UserServiceTest.java:51:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC2_loginUser' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/servicetestcases/UserServiceTest.java:53:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "test12@gmail.com" appears 5 times in this file; the first occurrence is on line 53
+src/test/java/servicetestcases/UserServiceTest.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/test/java/servicetestcases/UserServiceTest.java:57:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/servicetestcases/UserServiceTest.java:62:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/UserServiceTest.java:62:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC3_getStatusOfUser' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/servicetestcases/UserServiceTest.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'status' could be declared final
+src/test/java/servicetestcases/UserServiceTest.java:65:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/servicetestcases/UserServiceTest.java:68:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/servicetestcases/UserServiceTest.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/UserServiceTest.java:73:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC4_forgotPassword' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/servicetestcases/UserServiceTest.java:75:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/test/java/servicetestcases/UserServiceTest.java:79:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/servicetestcases/UserServiceTest.java:84:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/UserServiceTest.java:84:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC5_restPasswordTest' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/servicetestcases/UserServiceTest.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/test/java/servicetestcases/UserServiceTest.java:91:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/test/java/servicetestcases/UserServiceTest.java:96:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/servicetestcases/UserServiceTest.java:96:	MethodNamingConventions:	MethodNamingConventions: The JUnit 4 test method name 'TC6_updateStatusForUserTest' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/servicetestcases/UserServiceTest.java:98:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userStatus' could be declared final
+src/test/java/servicetestcases/UserServiceTest.java:99:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/servicetestcases/UserServiceTest.java:102:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
